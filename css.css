@@ -1,0 +1,67 @@
+*{
+    box-sizing: border-box;
+}
+body {
+    background-color: #35e871;
+}
+.container {
+    position: relative;
+    margin-top: 50px;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 800px;
+    background-color: rgb(42, 199, 149);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    box-shadow: 0 0 10px 0 black;
+}
+
+.container .place_of_word {
+    display: flex;
+    justify-content: space-evenly;
+    width: 100%;
+
+}
+
+.container .place_of_word textarea {
+    width: 47%;
+    height: 300px;
+    border-radius: 10px;
+    font-size: 20px;
+    font-weight: bold;
+    background-color: rgb(0, 255, 187);
+    padding: 20px;
+    outline: none;
+}
+
+.container .divSelect {
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    margin-top: 40px;
+}
+
+.container .divSelect select {
+    width: 200px;
+    height: 40px;
+    font-size: 18px;
+    font-weight: bold;
+    border-radius: 10px;
+    text-align: center;
+    background-color: #35e871;
+    outline: none;
+    border: 2px solid rgb(97, 236, 127);
+}
+
+.container .btn-translate {
+    width: 200px;
+    height: 50px;
+    margin: 40px;
+    border-radius: 10px;
+    font-size: 25px;
+    font-weight: bold;
+    color: #0066ff;
+    background-color: #00ffc9;
+    border: 2px solid #0d00eb;
+}
