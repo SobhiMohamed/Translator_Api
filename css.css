@@ -2,7 +2,7 @@
     box-sizing: border-box;
 }
 body {
-    background-color: #35e871;
+    background-color: #F8FAFC;
 }
 .container {
     color:#0F172A;
@@ -11,7 +11,7 @@ body {
     left: 50%;
     transform: translateX(-50%);
     width: 800px;
-    background-color: rgb(42, 199, 149);
+    background-color: #FFFFFF;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -55,7 +55,7 @@ body {
     text-align: center;
     outline: none;
     border: 2px solid #E2E8F0 ;
-    color: #E2E8F0 ;
+    color: #334155 ;
 }
 
 .container .btn-translate {
