@@ -5,6 +5,7 @@ body {
     background-color: #35e871;
 }
 .container {
+    color:#0F172A;
     position: relative;
     margin-top: 50px;
     left: 50%;
@@ -25,14 +26,17 @@ body {
 }
 
 .container .place_of_word textarea {
+    color: #1E293B ;
+    border: E2E8F0 ;
     width: 47%;
     height: 300px;
     border-radius: 10px;
     font-size: 20px;
     font-weight: bold;
-    background-color: rgb(0, 255, 187);
+    background-color: rgb(255, 255, 255);
     padding: 20px;
     outline: none;
+    
 }
 
 .container .divSelect {
@@ -49,9 +53,9 @@ body {
     font-weight: bold;
     border-radius: 10px;
     text-align: center;
-    background-color: #35e871;
     outline: none;
-    border: 2px solid rgb(97, 236, 127);
+    border: 2px solid #E2E8F0 ;
+    color: #E2E8F0 ;
 }
 
 .container .btn-translate {
@@ -61,7 +65,10 @@ body {
     border-radius: 10px;
     font-size: 25px;
     font-weight: bold;
-    color: #0066ff;
-    background-color: #00ffc9;
-    border: 2px solid #0d00eb;
+    color: #FFFFFF ;
+    background-color: #2563EB ;
+    cursor: pointer;
+}
+.container .btn-translate:hover {
+    background-color: #1D4ED8;
 }
